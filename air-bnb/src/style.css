@@ -1,0 +1,115 @@
+body {
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+* {
+    font-family: "Poppins", sans-serif;
+}
+
+.navbar {
+    margin-bottom: 2rem;
+    padding: 1.2rem;
+    box-shadow: 0px 1px 20px 0px gray;
+}
+
+.navbar img {
+    width: 100px;
+    height: 30.5px;
+}
+
+.stock-img img {
+    width: 65%;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.text {
+    margin: 2rem;
+    margin-inline: 4rem;
+}
+
+.text .one {
+    font-size: 3.1rem;
+    font-weight: 600;
+}
+
+.dp {
+    border-radius: 15px;
+    margin-bottom: 0.4rem;
+}
+
+.card-rack {
+    display: flex;
+    height: 30rem;
+    margin-bottom: 2rem;
+    overflow-x: scroll;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    margin-top: -1.5rem;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    border: solid;
+    width: 15rem;
+    height: 5rem;
+    border: none;
+    margin-right: 1.5rem;
+}
+
+.rating {
+    display: flex;
+}
+
+.rating > * {
+    margin-inline-end: 0.3rem;
+    color: #918E9B;
+}
+
+.rating .rate {
+    color: black;
+}
+
+.rating .rate .star {
+    position: relative;
+    top: 0.1rem;
+    margin-right: 0.2rem;
+    color: #FE395C;
+}
+
+.info > * {
+    color: #222222;
+}
+
+.price {
+    font-size: medium;
+    font-weight: 600;
+}
+
+.price::after {
+    content: ' / person';
+    font-weight: normal;
+}
+
+.open-spots {
+    position: relative;
+    top: 2rem;
+    left: 0.45rem;
+    background-color: rgba(255, 255, 255, 0.781);
+    color: #222222;
+    width: 4.2rem;
+    cursor: default;
+    text-align: center;
+    transition: 0.2s;
+    border-radius: 5px;
+    font-size: small;
+    padding: 0.2rem;
+}

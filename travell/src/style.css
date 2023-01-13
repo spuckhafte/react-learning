@@ -1,0 +1,79 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+* {
+    font-family: 'Inter', sans-serif;
+}
+
+.head {
+    background: #F55A5A;
+    padding: 1.2rem;
+    font-size: large;
+    text-align: center;
+    color: white;
+}
+
+.icon-globe { 
+    position: relative;
+    top: 3px
+}
+
+::-webkit-scrollbar { width: 0px }
+
+.body {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    padding-top: 2rem;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card:not(:first-child) {
+    border-top: 1px solid rgb(218, 218, 218);
+}
+
+.card img {
+    width: 135px;
+    height: 188px;
+}
+
+.icon-loc { color: #F55A5A }
+
+.card > * {
+    margin: 1rem;
+}
+
+.address {
+    font-size: small;
+    margin-bottom: 0.5rem;
+}
+
+.address > * {
+    margin-inline-end: 1.5rem;
+}
+
+.maps {
+    color: #918E9B;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.location {
+    font-size: xx-large;
+    margin-bottom: 1rem;
+    font-weight: bold;
+}
+
+.duration {
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+.description { font-size: small;}
